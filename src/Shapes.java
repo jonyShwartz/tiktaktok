@@ -15,7 +15,7 @@ public class Shapes {
     }
 
     public void paint(Graphics graphics) {
-       // graphics.setColor(this.color.BLUE);
+        graphics.setColor(this.color.black);
         graphics.fillRect((int)this.x, (int)this.y, this.width, this.height);
     }
 
