@@ -6,7 +6,7 @@ public class Panel extends JPanel {
     public static final int Window_Width = 500;
     public static final int Window_Height = 500;
 
-    private ImageIcon background;
+    public ImageIcon background;
     private Shapes rec;
     private ShapesBlack recBlack;
     private Shapes rec2;
@@ -27,12 +27,12 @@ public class Panel extends JPanel {
     private ShapesBlack recBlack9;
 
 
-    public Panel() {
+    public Panel(String strImage) {
         this.setBounds(0, 0, Window_Width, Window_Height);
         this.setLayout(null);
         this.setVisible(true);
-        this.setBackground(Color.RED);
-        this.background = new ImageIcon("download.png");
+        this.setBackground(Color.blue);
+        this.background = new ImageIcon(strImage);
 
     }
 
@@ -96,92 +96,92 @@ public class Panel extends JPanel {
     }
 
     public void Black(double x, double y) {
-        this.rec = new Shapes (x - 20,y - 20,20,20,Color.BLACK);
+        this.rec = new Shapes (132 - 20,148 - 20,20,20,Color.BLACK);
 
     }
 
     public void Blue(double x, double y) {
-        this.recBlack = new ShapesBlack (x - 20,y - 20,20,40,Color.blue);
+        this.recBlack = new ShapesBlack (132 - 20,148 - 20,20,20,Color.blue);
 
     }
 
     public void Black2(double x, double y) {
-        this.rec2 = new Shapes (x - 20,y - 20,20,20,Color.BLACK);
+        this.rec2 = new Shapes (253 - 20,146 - 20,20,20,Color.BLACK);
 
     }
 
     public void Blue2(double x, double y) {
-        this.recBlack2 = new ShapesBlack (x - 20,y - 20,20,40,Color.blue);
+        this.recBlack2 = new ShapesBlack (253 - 20,146 - 20,20,20,Color.blue);
 
     }
 
     public void Black3(double x, double y) {
-        this.rec3 = new Shapes (x - 20,y - 20,20,20,Color.BLACK);
+        this.rec3 = new Shapes (371 - 20,155 - 20,20,20,Color.BLACK);
 
     }
 
     public void Blue3(double x, double y) {
-        this.recBlack3 = new ShapesBlack (x - 20,y - 20,20,40,Color.blue);
+        this.recBlack3 = new ShapesBlack (371 - 20,155 - 20,20,20,Color.blue);
 
     }
 
     public void Black4(double x, double y) {
-        this.rec4 = new Shapes (x - 20,y - 20,20,20,Color.BLACK);
+        this.rec4 = new Shapes (134 - 20,274 - 20,20,20,Color.BLACK);
 
     }
 
     public void Blue4(double x, double y) {
-        this.recBlack4 = new ShapesBlack (x - 20,y - 20,20,40,Color.blue);
+        this.recBlack4 = new ShapesBlack (134 - 20,274 - 20,20,20,Color.blue);
 
     }
 
     public void Black5(double x, double y) {
-        this.rec5 = new Shapes (x - 20,y - 20,20,20,Color.BLACK);
+        this.rec5 = new Shapes (254 - 20,275 - 20,20,20,Color.BLACK);
 
     }
 
     public void Blue5(double x, double y) {
-        this.recBlack5 = new ShapesBlack (x - 20,y - 20,20,40,Color.blue);
+        this.recBlack5 = new ShapesBlack (254 - 20,275 - 20,20,20,Color.blue);
 
     }
 
     public void Black6(double x, double y) {
-        this.rec6 = new Shapes (x - 20,y - 20,20,20,Color.BLACK);
+        this.rec6 = new Shapes (370 - 20,278 - 20,20,20,Color.BLACK);
 
     }
 
     public void Blue6(double x, double y) {
-        this.recBlack6 = new ShapesBlack (x - 20,y - 20,20,40,Color.blue);
+        this.recBlack6 = new ShapesBlack (370 - 20,278 - 20,20,20,Color.blue);
 
     }
 
     public void Black7(double x, double y) {
-        this.rec7 = new Shapes (x - 20,y - 20,20,20,Color.BLACK);
+        this.rec7 = new Shapes (132 - 20,397 - 20,20,20,Color.BLACK);
 
     }
 
     public void Blue7(double x, double y) {
-        this.recBlack7 = new ShapesBlack (x - 20,y - 20,20,40,Color.blue);
+        this.recBlack7 = new ShapesBlack (132 - 20,397 - 20,20,20,Color.blue);
 
     }
 
     public void Black8(double x, double y) {
-        this.rec8 = new Shapes (x - 20,y - 20,20,20,Color.BLACK);
+        this.rec8 = new Shapes (257 - 20,400 - 20,20,20,Color.BLACK);
 
     }
 
     public void Blue8(double x, double y) {
-        this.recBlack8 = new ShapesBlack (x - 20,y - 20,20,40,Color.blue);
+        this.recBlack8 = new ShapesBlack (257 - 20,400 - 20,20,20,Color.blue);
 
     }
 
     public void Black9(double x, double y) {
-        this.rec9 = new Shapes (x - 20,y - 20,20,20,Color.BLACK);
+        this.rec9 = new Shapes (376 - 20,403 - 20,20,20,Color.BLACK);
 
     }
 
     public void Blue9(double x, double y) {
-        this.recBlack9 = new ShapesBlack (x - 20,y - 20,20,40,Color.blue);
+        this.recBlack9 = new ShapesBlack (376 - 20,403 - 20,20,20,Color.blue);
 
     }
 
